@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(240, 242, 245);
+}
+.fresh {
+  display: flex;
+  /* size: 100vh; */
+  justify-content: space-between;
+  margin: 100px;
+}
+.blue {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  width: 360px;
+  height: 50px;
+  margin-left: 20px;
+}
+.myform input {
+  margin: 10px 25px;
+}
+.myform {
+  background: white;
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+.myform input {
+  outline-color: rgb(103, 103, 235);
+  padding-left: 30px;
+  text-align: start;
+  margin: 10px 20px;
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 18px rgba(209, 209, 223, 0.952);
+}
+.forget {
+  color: rgb(69, 69, 238);
+  text-align: center;
+  padding: 10px 0 30px 0;
+  /* height: 2px;
+  width: 100px;
+  border-bottom: 1px solid;
+  border-color: black;
+  border: none; */
+}
+.account {
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(66, 183, 42);
+  height: 50px;
+  width: 200px;
+  margin: 10px 100px;
+  font-size: 15px;
+  font-weight: 700;
+  /* text-align: center;
+  justify-content: center; */
+}
+.feel {
+  padding-top: 50px;
+}
+.charge {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: blue;
+}
+.black {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.774);
+  line-height: 32px;
+}
+.hr {
+  width: 350px;
+  margin: 0 30px;
+  background: green;
+}
+/* .small {
+  text-align: center;
+  padding-top: 20px;
+} */
+.create {
+  text-align: center;
+  padding: 10px 70px;
+}
